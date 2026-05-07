@@ -1,15 +1,24 @@
-# AI Notes Summarizer
-A full-stack web application where users can write notes and instantly generate AI-powered summaries. Built as my first project using Node.js, Express.js, and React.
+# AI Study Assistant
 
-## Technologies Used
-- **Frontend:** React
-- **Backend:** Node.js, Express.js
-- **Database:** PostgreSQL
-- **AI:** AI Summarization API using HuggingFace
+A beginner-level full stack web application where students can write notes and get AI-generated summaries using HuggingFace.
 
-## Planned Features
-- Create and view notes
-- Generate AI-powered summaries with a single click
-- Save both the original note and its summary to the database
-- Search through saved notes
+## Features
 
+- Create notes with title, content and tags
+- AI-powered summarization using HuggingFace
+- Search notes by title, content or tags
+- Delete notes
+- Notes and summaries are stored in a PostgreSQL database
+
+## Tech Stack
+
+- Frontend: React, Axios
+- Backend: Node.js, Express
+- Database: PostgreSQL
+- AI: HuggingFace Inference API (facebook/bart-large-cnn)
+
+## Prerequisites
+
+- Node.js
+- PostgreSQL
+- HuggingFace account with API token
